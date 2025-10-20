@@ -1,0 +1,17 @@
+{
+  "name": "weather-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:all": "npm -w server i && npm -w client i",
+    "dev": "npm -w server run dev & npm -w client run dev",
+    "build": "npm -w client run build",
+    "start": "npm -w server start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

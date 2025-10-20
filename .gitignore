@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Build artefacts
+dist/
+build/
+.tmp/
+.temp/
+
+# Logs
+*.log
+logs/
+*.pid
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Env (кореневі)
+.env
+.env.*.local
+
+# Client
+client/node_modules/
+client/dist/
+client/.env
+client/.vite/
+client/.parcel-cache/
+
+# Server
+server/node_modules/
+server/dist/
+server/.env
